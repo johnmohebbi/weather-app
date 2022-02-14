@@ -1,0 +1,16 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    min-height: 100%;
+}
+
+body {
+  background-image: repeating-linear-gradient(
+    8deg,
+    rgba(99, 102, 241, 1) 0%,
+    rgba(14, 165, 233, 1) 100%
+  );
+  
+}
