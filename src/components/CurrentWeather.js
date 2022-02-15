@@ -89,7 +89,7 @@ const CurrentWeather = ({ name, forecasteWeather }) => {
                         {/* temp */}
                         <section className="w-1/2 text-center">
                           <div className="text-center font-medium">
-                            {<span>{forecasteWeather.current.temp}</span>}
+                            {<span>{item.temp.day}</span>}
                             <span>&deg;</span>
                           </div>
                           {/* forcaste main */}
