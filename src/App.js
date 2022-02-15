@@ -23,7 +23,6 @@ function App() {
       const response = await axios.get(
         `https://api.openweathermap.org/geo/1.0/direct?q=${name}&appid=f469ffbe268909318848e0dd79fc89e2`
       );
-      console.log(response);
       if (response.data.length) {
         setCityName({ ...response.data[0] }, (currentState) => {
           const fetchForecaste = async () => {
