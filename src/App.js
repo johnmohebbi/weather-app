@@ -38,7 +38,6 @@ function App() {
         setIsFind(true);
       }
     } catch (error) {
-      console.log(error);
       setIsFind(true);
 
     }
